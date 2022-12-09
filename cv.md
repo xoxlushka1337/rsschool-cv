@@ -20,7 +20,7 @@ My goal is to find a job that I love. My main strengths are perseverance and the
 
 ## Code Example:
 
-```
+```JavaScript
 function toCamelCase(str) {
   str = str.split('');
   return str
