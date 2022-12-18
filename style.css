@@ -46,9 +46,10 @@ body {
 .menu-li {
   display: inline;
   margin-right: 20px;
-  color: rgb(123, 123, 212);
 }
-
+.menu-li a {
+  color: rgb(77, 77, 189);
+}
 .header {
   margin: 0px auto;
   max-width: 780px;
@@ -86,7 +87,6 @@ body {
   background-color: rgb(103, 100, 100);
   margin: 10px 0px 0px 130px;
 }
-
 .header-text {
   font-size: 20px;
   letter-spacing: 2px;
@@ -96,27 +96,26 @@ body {
 
 /* main */
 .content {
-  max-width: 900px;
+  width: 900px;
   margin: 0px auto;
   flex: 1 1 auto;
 }
 .content-block {
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 55px;
 }
 .block {
-  border-bottom: 2px solid #1a2029;
   margin-top: 20px;
-  padding-left: 15px;
+  padding-left: 30px;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .content-row {
-  flex: 0 1 50%;
+  display: flex;
+  justify-content: space-between;
 }
-.contacs {
-  padding-bottom: 20px;
-  margin-right: 10px;
+.content-column {
+  width: 430px;
+  border-bottom: 2px solid #1a2029;
 }
 .contacs_a {
   color: #1a2029;
@@ -135,36 +134,8 @@ body {
   color: #1a2029;
   line-height: 30px;
 }
-.about {
-  padding-bottom: 20px;
-  margin-left: 10px;
-}
-
-.skills {
-  padding-bottom: 45px;
-  margin-right: 10px;
-}
-
-.code {
-  margin-left: 10px;
-}
-
-.project {
-  padding-bottom: 20px;
-  margin-right: 10px;
-}
 .project_a {
   color: #1a2029;
-}
-
-.courses {
-  margin-left: 10px;
-  padding-bottom: 50px;
-}
-
-.language {
-  padding-bottom: 20px;
-  margin-right: 10px;
 }
 
 /*footer  */
