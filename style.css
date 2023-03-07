@@ -15,7 +15,8 @@ a:visited {
 }
 a:hover {
   text-decoration: none;
-  color: black;
+  color: rgb(66, 66, 197);
+  transition: 0.3s;
 }
 /*--------------------*/
 
@@ -49,6 +50,10 @@ body {
 }
 .menu-li a {
   color: rgb(77, 77, 189);
+}
+.menu-li a:hover {
+  color: white;
+  transition: 0.3s;
 }
 .header {
   margin: 0px auto;
@@ -137,6 +142,10 @@ body {
 .project_a {
   color: #1a2029;
 }
+/* .project_a:hover {
+  color: rgb(75, 75, 194);
+  transition: 0.3s;
+} */
 
 /*footer  */
 .footer {
@@ -170,7 +179,7 @@ body {
 }
 .footer_imgs {
   width: 80px;
-  height: 80px;
+  height: 72px;
   vertical-align: middle;
 }
 .footer_logo {
