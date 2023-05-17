@@ -40,7 +40,9 @@ body {
   padding-bottom: 17px;
 }
 .menu-main {
-  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 727px;
   margin: 0px auto;
   letter-spacing: 1px;
 }
