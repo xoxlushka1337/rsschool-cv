@@ -15,7 +15,8 @@ a:visited {
 }
 a:hover {
   text-decoration: none;
-  color: black;
+  color: rgb(59, 59, 222);
+  transition: 0.3s;
 }
 /*--------------------*/
 
@@ -49,6 +50,10 @@ body {
 }
 .menu-li a {
   color: rgb(77, 77, 189);
+}
+.menu-li a:hover {
+  color: white;
+  transition: 0.4s all;
 }
 .header {
   margin: 0px auto;
@@ -164,20 +169,24 @@ body {
   letter-spacing: 1px;
   font-weight: 400;
   color: #1a2029;
+  transition: 0.5s all;
 }
 .footer_a:hover {
   transform: scale(1.1);
+  transition: 0.5s all;
 }
 .footer_imgs {
   width: 80px;
-  height: 80px;
+  height: 72px;
   vertical-align: middle;
 }
 .footer_logo {
   width: 120px;
   height: 50px;
   margin-top: 10px;
+  transition: 0.5s all;
 }
 .footer_logo:hover {
   transform: scale(1.1);
+  transition: 0.5s all;
 }
